@@ -4,11 +4,11 @@ sim_seconds                                  0.087622                       # Nu
 sim_ticks                                 87621738000                       # Number of ticks simulated
 final_tick                                87621738000                       # Number of ticks from beginning of simulation (restored from checkpoints and never reset)
 sim_freq                                 1000000000000                       # Frequency of simulated ticks
-host_inst_rate                                1006044                       # Simulator instruction rate (inst/s)
-host_op_rate                                  1657933                       # Simulator op (including micro ops) rate (op/s)
-host_tick_rate                             1981385596                       # Simulator tick rate (ticks/s)
-host_mem_usage                                 664020                       # Number of bytes of host memory used
-host_seconds                                    44.22                       # Real time elapsed on the host
+host_inst_rate                                 687278                       # Simulator instruction rate (inst/s)
+host_op_rate                                  1132616                       # Simulator op (including micro ops) rate (op/s)
+host_tick_rate                             1353581629                       # Simulator tick rate (ticks/s)
+host_mem_usage                                 664024                       # Number of bytes of host memory used
+host_seconds                                    64.73                       # Real time elapsed on the host
 sim_insts                                    44489723                       # Number of instructions simulated
 sim_ops                                      73317876                       # Number of ops (including micro ops) simulated
 system.voltage_domain.voltage                       1                       # Voltage in Volts
@@ -514,8 +514,8 @@ system.l3.tags.age_task_id_blocks_1024::0           52                       # O
 system.l3.tags.age_task_id_blocks_1024::3            1                       # Occupied blocks per task id
 system.l3.tags.age_task_id_blocks_1024::4         6779                       # Occupied blocks per task id
 system.l3.tags.occ_task_id_percent::1024     0.416992                       # Percentage of cache occupancy per task id
-system.l3.tags.tag_accesses                 753916592                       # Number of tag accesses
-system.l3.tags.data_accesses                753916592                       # Number of data accesses
+system.l3.tags.tag_accesses                    743072                       # Number of tag accesses
+system.l3.tags.data_accesses                   743072                       # Number of data accesses
 system.l3.pwrStateResidencyTicks::UNDEFINED  87621738000                       # Cumulative time (in ticks) in various power states
 system.l3.WritebackDirty_hits::writebacks        21748                       # number of WritebackDirty hits
 system.l3.WritebackDirty_hits::total            21748                       # number of WritebackDirty hits

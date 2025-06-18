@@ -24,8 +24,8 @@ void quickSort(int number[], int left, int right) {
 int main(){
  
 
-	int arr[100000];
-	int size = 100000;
+	int arr[1000000];
+	int size = 1000000;
 	for (int i = 0; i < size; i++){
 		arr[i] = rand() % size + 1;
     }
